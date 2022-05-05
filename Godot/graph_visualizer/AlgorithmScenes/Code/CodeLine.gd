@@ -1,12 +1,12 @@
 tool
-extends PanelContainer
 class_name CodeLine
+extends PanelContainer
 
 export (int) var line_index = 0
 export (int) var jump_index = 0
 export var focused: bool = false
 export (String) var code_text = 'BFS():'
-export (Resource) var effect_check;
+export (Resource) var effect_check
 #var effect_check2 : EffectCheck
 var on_focus_effect_triggered : bool = false
 
